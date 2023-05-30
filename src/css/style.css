@@ -1,0 +1,28 @@
+body {
+  color: #999;
+}
+
+.board-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.cell {
+  background-color: rgb(224, 198, 198);
+  width: 100px;
+  height: 100px;
+}
+
+.character {
+  width: 100%;
+  height: auto;  
+}
