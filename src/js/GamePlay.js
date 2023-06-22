@@ -88,8 +88,6 @@ export default class GamePlay {
   checkWinOrLose(kill, fail) {
     if (this.failCounter === fail) {
       this.stopGame();
-      // alert();
-      // swal(`Упущено ${fail} гоблинов. Вы проиграли`);
       swal('Вы проиграли', `Упущено ${fail} гоблинов.`, 'error');
     }
 
